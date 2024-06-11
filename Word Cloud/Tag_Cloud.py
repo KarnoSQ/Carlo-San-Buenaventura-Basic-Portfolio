@@ -10,7 +10,6 @@
 #
 # Req : Need to Install Pillow, Wikipedia API, and Word Cloud because PytagCloud doesnt work properly in Python 3
 
-import sys
 import numpy
 from PIL import Image
 import matplotlib.pyplot as plt
@@ -41,6 +40,7 @@ wc = WordCloud(stopwords=STOPWORDS,
                mask= wMask,
                background_color="white",
                contour_color= "black",
+               colormap="Greens",
                contour_width= 3,
                min_font_size=3,
                max_words=200
