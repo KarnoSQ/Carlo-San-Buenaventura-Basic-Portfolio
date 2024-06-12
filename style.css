@@ -220,10 +220,10 @@ a.nav-link{
 }
 
 /*──────────────────
-      Contact
+      Portfolio
 ──────────────────*/
 
-#contact{
+#portfolio{
 	margin: auto;
 	padding-bottom: 20px;
 	height: 600px;
@@ -234,7 +234,7 @@ a.nav-link{
 	color: var(--main-fonts-color);
 }
 	
-#contact p{
+#portfolio p{
 	padding:10px;
 	text-align:center;
 	font-size:1.2rem;
